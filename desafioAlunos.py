@@ -22,5 +22,5 @@ with open('AlunosAprovados.json', 'w') as fileabove, \
     estudantesAprovados = [s for s in dados["Alunos"] if s["media"] >= 70]
     estudantesReprovados = [s for s in dados["Alunos"] if s["media"] < 70]
 
-    json.dump({"Alunos": estudantesAprovados}, fileabove)
-    json.dump({"Alunos": estudantesReprovados}, filebelow)
+    json.dump({"Alunos": estudantesAprovados}, fileabove, indent=2)
+    json.dump({"Alunos": estudantesReprovados}, filebelow, indent=2)
