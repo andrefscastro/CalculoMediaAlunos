@@ -1,0 +1,40 @@
+{
+  "Alunos": [
+    {
+      "id": 1,
+      "nome": "Marcos",
+      "idade": 18,
+      "notas": [
+        70,
+        60,
+        50,
+        20
+      ],
+      "media": 50.0
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "idade": 20,
+      "notas": [
+        80,
+        40,
+        30,
+        50
+      ],
+      "media": 50.0
+    },
+    {
+      "id": 3,
+      "nome": "Mario",
+      "idade": 21,
+      "notas": [
+        70,
+        70,
+        80,
+        80
+      ],
+      "media": 75.0
+    }
+  ]
+}
